@@ -1,0 +1,44 @@
+{
+  "scanDirs": [
+    "src/pages/homepage",
+    "src/pages/employee"
+  ],
+  "extensions": [".ts", ".tsx", ".js", ".jsx"],
+  "excludeDirs": ["node_modules", ".next", "build", "dist", "tests"],
+  "excludeFiles": ["*.test.*", "*.spec.*", "*.d.ts", "*.mock.*"],
+  "targetProps": [
+    "name", 
+    "label", 
+    "title", 
+    "emptyText", 
+    "tooltip", 
+    "placeholder",
+    "description",
+    "buttonText",
+    "message"
+  ],
+  "targetFunctions": ["titleShow", "t", "i18n", "translate"],
+  "excludeTexts": ["N/A", "OK", "Cancel"],
+  "outputDir": "i18n-output",
+  "logLevel": "detailed",
+  "formatter": ["t"],
+  "sourceFiles": [
+    "i18n-output/homepage",
+    "i18n-output/employee"
+  ],
+  "skipProps": [
+    "dataIndex",
+     "key",
+     "id",
+     "type"
+  ],
+  "targetMemberFunctions": [
+    "message.success",
+    "message.error",
+    "notification.success",
+    "notification.error"
+  ],
+  "sourceFilesJson": [
+    "extracted-texts.json"
+  ]
+}

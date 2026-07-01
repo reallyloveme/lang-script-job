@@ -1,0 +1,31 @@
+{
+  "name": "@reallysj/lang-script-job",
+  "version": "1.0.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "bin": {
+    "i18n-scan-job": "./scanByast.js",
+    "i18n-replace-job": "./replace.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/generator": "^7.28.0",
+    "@babel/parser": "^7.28.0",
+    "@babel/traverse": "^7.28.0",
+    "@babel/types": "^7.28.0",
+    "diff": "^8.0.2",
+    "minimatch": "^9.0.5"
+  },
+  "devDependencies": {
+    "chalk": "^5.4.1"
+  }
+}
